@@ -9,7 +9,7 @@ import unittest
 class TestPostfija(unittest.TestCase):
     def test_evaluar(self):
         p = Postfija(['5', '3', '+', '4', '*'])
-        self.assertEqual(p.evaluar(), 20)
+        self.assertEqual(p.evaluar(), 32)
 
     def test_aInfija(self):
         p = Postfija(['5', '3', '+', '4', '*'])
@@ -18,7 +18,7 @@ class TestPostfija(unittest.TestCase):
 class TestPrefija(unittest.TestCase):
     def test_evaluar(self):
         p = Prefija(['*', '+', '5', '3', '4'])
-        self.assertEqual(p.evaluar(), 20)
+        self.assertEqual(p.evaluar(), 32)
 
     def test_aInfija(self):
         p = Prefija(['*', '+', '5', '3', '4'])
