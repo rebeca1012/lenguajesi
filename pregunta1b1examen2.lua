@@ -1,9 +1,7 @@
-[[--
-Alumno: Rebeca Ledesma
-Carnet: 15-10771
-Exámen 2
-Pregunta 1.b.i
---]]
+-- Alumno: Rebeca Ledesma
+-- Carnet: 15-10771
+-- Exámen 2
+-- Pregunta 1.b.i
 
 -- Definición del cero
 -- Recibe una función f
