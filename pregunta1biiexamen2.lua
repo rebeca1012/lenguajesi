@@ -1,9 +1,8 @@
-[[--
-Alumno: Rebeca Ledesma
-Carnet: 15-10771
-Exámen 2
-Pregunta 1.b.ii
---]]
+-- Alumno: Rebeca Ledesma
+-- Carnet: 15-10771
+-- Exámen 2
+-- Pregunta 1.b.ii
+
 
 -- Definición de la estructura de nodo
 Nodo = {}
@@ -70,11 +69,10 @@ end
 -- Construcción del árbol binario
 raiz = Nodo:nuevo(10)
 raiz.izquierda = Nodo:nuevo(5)
-raiz.derecha = Nodo:nuevo(15)
-raiz.izquierda.izquierda = Nodo:nuevo(3)
-raiz.izquierda.derecha = Nodo:nuevo(8)
-raiz.derecha.izquierda = Nodo:nuevo(12)
-raiz.derecha.derecha = Nodo:nuevo(20)
+raiz.derecha = Nodo:nuevo(3)
+raiz.izquierda.izquierda = Nodo:nuevo(4)
+raiz.izquierda.derecha = Nodo:nuevo(1)
+
 
 
 -- Construcción de otro árbol binario
