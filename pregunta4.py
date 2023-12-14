@@ -43,10 +43,10 @@ def crear_clase(clases, datos):
             return
         #Llamamos a la función métodos heredados para obtener los métodos heredados de
         #la superclase y luego guardarla
-        tmp = metheredados(nombre, datos[2:], clases[superclase])
-        if tmp == []:
+        aux = metheredados(nombre, datos[2:], clases[superclase])
+        if aux == []:
             return
-        clases[nombre] = tmp
+        clases[nombre] = aux
     else:
         #Verificamos que la longitud de los argumentos sea distinta a la longitud del set de los
         #argumentos para así asegurarnos que no haya definiciones de métodos repetidas
